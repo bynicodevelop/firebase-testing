@@ -5,6 +5,8 @@ script:
   - npm i -g firebase-tools
   - echo "skipping tests"
 before_deploy:
+  - npm i
+  - npm generate
   - cd functions && npm i && cd ..
 
 deploy:
