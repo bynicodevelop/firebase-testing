@@ -5,6 +5,7 @@ script:
   - echo "skipping tests"
   - cd functions
   - npm i
+  - cd ..
 deploy:
   provider: firebase
   token:
