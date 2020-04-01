@@ -1,0 +1,25 @@
+{
+  "name": "atrap.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bynicodevelop/firebase-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bynicodevelop/firebase-testing/issues"
+  },
+  "homepage": "https://github.com/bynicodevelop/firebase-testing#readme",
+  "dependencies": {
+    "nuxt": "^2.12.2"
+  }
+}
