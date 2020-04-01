@@ -1,11 +1,10 @@
 language: node_js
 node_js:
   - "12"
+before_script:
+  - npm install -g firebase-tools
 script:
   - echo "skipping tests"
-  - cd functions
-  - npm i
-  - cd ..
 deploy:
   provider: firebase
   token:
