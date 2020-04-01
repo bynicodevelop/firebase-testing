@@ -6,7 +6,7 @@ script:
   - echo "skipping tests"
 before_deploy:
   - npm i
-  - npm generate
+  - npm run generate
   - cd functions && npm i && cd ..
 
 deploy:
