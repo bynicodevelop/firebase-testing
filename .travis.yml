@@ -3,6 +3,8 @@ node_js:
   - "12"
 script:
   - echo "skipping tests"
+  - cd functions
+  - npm i
 deploy:
   provider: firebase
   token:
